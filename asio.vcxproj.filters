@@ -1,0 +1,1802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{03928f41-b4dc-4103-9f06-c5873bbf0782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{e9f6724a-9138-4df8-b9ea-2f9ac7c4fffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio">
+      <UniqueIdentifier>{b8820b2f-8e60-462b-9aa6-0e8316b0cd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\detail">
+      <UniqueIdentifier>{bc86dec9-d158-4038-bef7-0db526411f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\execution">
+      <UniqueIdentifier>{c5d91bb1-61bc-4c45-a552-44f157eeab01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\experimental">
+      <UniqueIdentifier>{9e31a717-4c7d-4e50-9cd2-e959211fbdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\generic">
+      <UniqueIdentifier>{81ce211a-181e-40f8-97d0-248ab510fb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\impl">
+      <UniqueIdentifier>{3811e213-d611-4232-a24a-1ad8724e9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ip">
+      <UniqueIdentifier>{72895fe7-2c52-477e-a469-cbc55d6bd732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\local">
+      <UniqueIdentifier>{bb91973c-376a-4fdd-91d1-cf72ef782a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\posix">
+      <UniqueIdentifier>{d26c597d-c9c7-41c3-9c30-ba6efd728d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ssl">
+      <UniqueIdentifier>{c03fd0f1-07d2-450c-954d-60f1ebd36e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\traits">
+      <UniqueIdentifier>{ecdc0d97-1ace-4b8d-994c-d1b960c7a348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ts">
+      <UniqueIdentifier>{7ef76bf4-8d3b-44c6-8afc-d95514eba558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\windows">
+      <UniqueIdentifier>{b17b2e72-7129-4c83-bf6d-2cdc763a07cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\detail\impl">
+      <UniqueIdentifier>{a33d2705-c0f2-4375-a85e-f7e79f6d23a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\execution\detail">
+      <UniqueIdentifier>{89fd1a07-2bc5-42e0-b4ec-034d89bcfd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\execution\impl">
+      <UniqueIdentifier>{5fc0e97c-2b4b-4110-afd4-daf7528e2fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\experimental\impl">
+      <UniqueIdentifier>{0ecfbe28-3a3f-4299-94d1-3c02ac8b065f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\generic\detail">
+      <UniqueIdentifier>{f003f4b7-6d00-4ce5-942f-0172e3a11d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\generic\detail\impl">
+      <UniqueIdentifier>{abded9f2-8320-4a8d-b121-fb0ccfae5c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ip\detail">
+      <UniqueIdentifier>{d56a8105-797a-4d01-a83b-2761a2b28989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ip\impl">
+      <UniqueIdentifier>{cec1cde2-2b57-4933-bf4a-94e5f4e8ef39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ip\detail\impl">
+      <UniqueIdentifier>{eda49814-9640-4e22-ba63-a7c5cf4a8fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\local\detail">
+      <UniqueIdentifier>{4964b98c-b39c-4423-9db0-85ff746002cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\local\detail\impl">
+      <UniqueIdentifier>{f8ff758a-4ec8-465a-a042-dc4bef765511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ssl\detail">
+      <UniqueIdentifier>{8d6c8030-c81d-4ab4-8cb3-4672d4304a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ssl\impl">
+      <UniqueIdentifier>{7903f3d9-b185-4c0b-8238-9a630ab9617b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\asio\ssl\detail\impl">
+      <UniqueIdentifier>{f2be77bd-f7c6-45b7-9956-10fcc0a00c98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\asio.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\any_io_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\associated_allocator.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\associated_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\async_result.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\awaitable.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_datagram_socket.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_deadline_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_io_object.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_raw_socket.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_seq_packet_socket.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_serial_port.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_signal_set.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_socket.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_socket_acceptor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_socket_iostream.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_socket_streambuf.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_stream_socket.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_streambuf.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_streambuf_fwd.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\basic_waitable_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\bind_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_read_stream.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_read_stream_fwd.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_stream.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_stream_fwd.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_write_stream.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffered_write_stream_fwd.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\buffers_iterator.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\co_spawn.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\completion_condition.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\compose.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\connect.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\coroutine.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\deadline_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\defer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detached.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\dispatch.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\error.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\error_code.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution_context.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\executor_work_guard.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\handler_alloc_hook.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\handler_continuation_hook.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\handler_invoke_hook.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\high_resolution_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\io_context.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\io_context_strand.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\io_service.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\io_service_strand.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\is_applicable_property.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\is_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\is_read_buffered.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\is_write_buffered.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\multiple_exceptions.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\packaged_task.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\placeholders.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\post.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\prefer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\query.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\read.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\read_at.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\read_until.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\redirect_error.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\require.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\require_concept.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\serial_port.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\serial_port_base.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\signal_set.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\socket_base.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\spawn.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\static_thread_pool.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\steady_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\strand.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\streambuf.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\system_context.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\system_error.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\system_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\system_timer.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\this_coro.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\thread.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\thread_pool.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\time_traits.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\unyield.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\use_awaitable.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\use_future.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\uses_executor.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\version.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\wait_traits.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\write.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\write_at.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\yield.hpp">
+      <Filter>include\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\array.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\array_fwd.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\assert.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\atomic_count.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\base_from_completion_cond.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\bind_handler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\blocking_executor_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\buffer_resize_guard.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\buffered_stream_storage.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\bulk_executor_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\call_stack.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\chrono.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\chrono_time_traits.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\completion_handler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\concurrency_hint.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\conditionally_enabled_event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\conditionally_enabled_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\config.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\consuming_buffers.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\cstddef.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\cstdint.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\date_time_fwd.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\deadline_timer_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\dependent_type.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\descriptor_ops.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\descriptor_read_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\descriptor_write_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\dev_poll_reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\epoll_reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\executor_function.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\executor_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\fd_set_adapter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\functional.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\future.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\gcc_arm_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\gcc_hppa_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\gcc_sync_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\gcc_x86_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\global.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_cont_helpers.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_invoke_helpers.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_tracking.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_type_requirements.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\handler_work.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\hash_map.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\io_control.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\io_object_impl.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\is_buffer_sequence.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\is_executor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\kqueue_reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\limits.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\macos_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\memory.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\non_const_lvalue.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\noncopyable.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_global.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_signal_blocker.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_socket_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_static_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\null_tss_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\object_pool.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\op_queue.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\operation.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\pop_options.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_global.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_signal_blocker.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_static_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\posix_tss_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\push_options.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_serial_port_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactive_wait_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactor_fwd.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactor_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\reactor_op_queue.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\recycling_allocator.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\regex_fwd.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\resolve_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\resolve_query_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\resolver_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\resolver_service_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\scheduler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\scheduler_operation.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\scheduler_thread_info.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\scoped_lock.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\scoped_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\select_interrupter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\select_reactor.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\service_registry.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\signal_blocker.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\signal_handler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\signal_init.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\signal_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\signal_set_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\socket_holder.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\socket_ops.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\socket_option.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\socket_select_interrupter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\socket_types.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\solaris_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\source_location.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\static_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_global.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_static_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\std_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\strand_executor_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\strand_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\string_view.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\thread_context.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\thread_group.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\thread_info_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\throw_error.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\throw_exception.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_queue.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_queue_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_queue_ptime.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_queue_set.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_scheduler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\tss_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\type_traits.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\variadic_templates.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\wait_handler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\wait_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_event.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_fenced_block.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_global.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_io_context.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_operation.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_iocp_wait_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_object_handle_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_static_mutex.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\win_tss_ptr.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winapp_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\wince_thread.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_async_manager.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_async_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_resolve_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_resolver_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winrt_utils.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\winsock_init.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\work_dispatcher.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\wrapped_handler.hpp">
+      <Filter>include\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\handler_tracking.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\null_event.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\posix_event.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\posix_mutex.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\posix_thread.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\reactive_serial_port_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\scheduler.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\select_reactor.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\select_reactor.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\service_registry.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\service_registry.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\signal_set_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\socket_ops.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\strand_executor_service.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\strand_executor_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\strand_service.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\strand_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\throw_error.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_event.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_iocp_io_context.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_iocp_io_context.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_mutex.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_thread.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\detail\impl\winsock_init.ipp">
+      <Filter>include\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\impl\bad_executor.ipp">
+      <Filter>include\asio\execution\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\impl\receiver_invocation_error.ipp">
+      <Filter>include\asio\execution\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\allocator.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\any_executor.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\bad_executor.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\blocking.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\blocking_adaptation.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\bulk_execute.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\bulk_guarantee.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\connect.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\context.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\context_as.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\execute.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\executor.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\invocable_archetype.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\mapping.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\occupancy.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\operation_state.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\outstanding_work.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\prefer_only.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\receiver.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\receiver_invocation_error.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\relationship.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\schedule.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\scheduler.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\sender.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\set_done.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\set_error.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\set_value.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\start.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\submit.hpp">
+      <Filter>include\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\as_invocable.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\as_operation.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\as_receiver.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\bulk_sender.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\submit_receiver.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\execution\detail\void_receiver.hpp">
+      <Filter>include\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\experimental\as_single.hpp">
+      <Filter>include\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\experimental\impl\as_single.hpp">
+      <Filter>include\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\detail\impl\endpoint.ipp">
+      <Filter>include\asio\generic\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\detail\endpoint.hpp">
+      <Filter>include\asio\generic\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\basic_endpoint.hpp">
+      <Filter>include\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\datagram_protocol.hpp">
+      <Filter>include\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\raw_protocol.hpp">
+      <Filter>include\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\seq_packet_protocol.hpp">
+      <Filter>include\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\generic\stream_protocol.hpp">
+      <Filter>include\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\awaitable.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\buffered_read_stream.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\buffered_write_stream.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\co_spawn.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\compose.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\connect.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\defer.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\detached.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\dispatch.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\error.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\error_code.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\execution_context.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\execution_context.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\executor.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\executor.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\handler_alloc_hook.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\io_context.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\io_context.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\multiple_exceptions.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\post.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\read.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\read_at.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\read_until.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\redirect_error.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\serial_port_base.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\serial_port_base.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\spawn.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\src.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\system_context.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\system_context.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\system_executor.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\thread_pool.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\thread_pool.ipp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\use_awaitable.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\use_future.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\write.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\impl\write_at.hpp">
+      <Filter>include\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v4.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v4_iterator.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v4_range.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v6.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v6_iterator.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\address_v6_range.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\bad_address_cast.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_endpoint.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_resolver.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_resolver_entry.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_resolver_iterator.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_resolver_query.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\basic_resolver_results.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\host_name.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\icmp.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\multicast.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\network_v4.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\network_v6.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\resolver_base.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\resolver_query_base.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\tcp.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\udp.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\unicast.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\v6_only.hpp">
+      <Filter>include\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address_v4.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address_v4.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address_v6.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\address_v6.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\basic_endpoint.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\host_name.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\network_v4.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\network_v4.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\network_v6.hpp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\impl\network_v6.ipp">
+      <Filter>include\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\detail\endpoint.hpp">
+      <Filter>include\asio\ip\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\detail\socket_option.hpp">
+      <Filter>include\asio\ip\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ip\detail\impl\endpoint.ipp">
+      <Filter>include\asio\ip\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\basic_endpoint.hpp">
+      <Filter>include\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\connect_pair.hpp">
+      <Filter>include\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\datagram_protocol.hpp">
+      <Filter>include\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\stream_protocol.hpp">
+      <Filter>include\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\detail\endpoint.hpp">
+      <Filter>include\asio\local\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\local\detail\impl\endpoint.ipp">
+      <Filter>include\asio\local\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\posix\basic_descriptor.hpp">
+      <Filter>include\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\posix\basic_stream_descriptor.hpp">
+      <Filter>include\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\posix\descriptor.hpp">
+      <Filter>include\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\posix\descriptor_base.hpp">
+      <Filter>include\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\posix\stream_descriptor.hpp">
+      <Filter>include\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\impl\engine.ipp">
+      <Filter>include\asio\ssl\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\impl\openssl_init.ipp">
+      <Filter>include\asio\ssl\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\buffered_handshake_op.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\engine.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\handshake_op.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\io.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\openssl_init.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\openssl_types.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\password_callback.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\read_op.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\shutdown_op.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\stream_core.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\verify_callback.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\detail\write_op.hpp">
+      <Filter>include\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\context.hpp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\context.ipp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\error.ipp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\host_name_verification.ipp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\rfc2818_verification.ipp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\impl\src.hpp">
+      <Filter>include\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\context.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\context_base.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\error.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\host_name_verification.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\rfc2818_verification.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\stream.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\stream_base.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\verify_context.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ssl\verify_mode.hpp">
+      <Filter>include\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\bulk_execute_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\bulk_execute_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\connect_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\connect_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\equality_comparable.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\execute_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\execute_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\prefer_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\prefer_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\query_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\query_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\query_static_constexpr_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\require_concept_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\require_concept_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\require_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\require_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\schedule_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\schedule_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_done_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_done_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_error_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_error_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_value_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\set_value_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\start_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\start_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\static_query.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\static_require.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\static_require_concept.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\submit_free.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\traits\submit_member.hpp">
+      <Filter>include\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\buffer.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\executor.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\internet.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\io_context.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\net.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\netfwd.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\socket.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\ts\timer.hpp">
+      <Filter>include\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\basic_object_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\basic_overlapped_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\basic_random_access_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\basic_stream_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\object_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\overlapped_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\overlapped_ptr.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\random_access_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio\windows\stream_handle.hpp">
+      <Filter>include\asio\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Makefile.am">
+      <Filter>include</Filter>
+    </None>
+    <None Include="include\Makefile.in">
+      <Filter>include</Filter>
+    </None>
+    <None Include="src\Makefile.am">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\Makefile.in">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\Makefile.msc">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\asio\impl\src.cpp">
+      <Filter>include\asio\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asio_ssl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
